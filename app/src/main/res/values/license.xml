@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="license_pre_apache">This app uses the following libraries under the Apache License:</string>
+
+    <string name="license_apache">Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at\n\n\t<a href="http://www.apache.org/licenses/LICENSE-2.0">http://www.apache.org/licenses/LICENSE-2.0</a>\n\nUnless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.</string>
+
+    <string name="license_seismic"><a href="https://github.com/square/seismic">Seismic - copyright 2012 Square, Inc.</a>\n\thttps://github.com/square/seismic</string>
+
+    <string name="license_eventbus"><a href="https://github.com/greenrobot/EventBus">EventBus - copyright 2012-2016 Markus Junginger</a>\n\thttps://github.com/greenrobot/EventBus</string>
+
+</resources>

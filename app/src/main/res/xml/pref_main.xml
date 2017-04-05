@@ -1,0 +1,45 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <SwitchPreference
+        android:defaultValue="false"
+        android:icon="@drawable/ic_shake_to_rotate"
+        android:summary="Toggle portrait or landscape\nOnly when auto-rotate is off"
+        android:key="settings_shake_to_rotate"
+        android:title="@string/pref_title_shake_to_rotate" />
+
+    <SwitchPreference
+        android:defaultValue="true"
+        android:dependency="settings_shake_to_rotate"
+        android:icon="@drawable/ic_vibration"
+        android:summary="Portrait: one vibrations\nLandscape: two vibration"
+        android:key="settings_vibrate"
+        android:title="@string/pref_title_vibrate" />
+
+    <Preference
+        android:key="settings_launch_app_list"
+        android:icon="@drawable/ic_android"
+        android:dependency="settings_shake_to_rotate"
+        android:summary="Disable shake-to-rotate for specific apps"
+        android:title="@string/pref_title_disable_for_apps" />
+
+    <!--<Preference-->
+        <!--android:key="settings_shake_sensitivity"-->
+        <!--android:icon="@drawable/ic_vibration"-->
+        <!--android:dependency="settings_shake_to_rotate"-->
+        <!--android:summary="Adjust ?????"-->
+        <!--android:title="@string/pref_title_shake_sensitivity" />-->
+
+    <Preference
+        android:key="settings_open_google_play"
+        android:title="@string/pref_title_open_google_play" />
+
+    <Preference
+        android:key="settings_version"
+        android:summary="@string/app_version"
+        android:title="@string/pref_title_version" />
+
+    <Preference
+        android:key="settings_licenses"
+        android:title="@string/pref_title_licenses" />
+
+</PreferenceScreen>

@@ -1,0 +1,23 @@
+<resources>
+
+    <string name="app_name">Shake to Rotate</string>
+
+    <string name="app_version">1.0.1</string>
+
+    <string name="title_activity_app_list">Disable for Apps</string>
+
+    <string name="pref_title_shake_to_rotate">Shake to rotate</string>
+
+    <string name="pref_title_vibrate">Vibrate on toggle</string>
+
+    <string name="pref_title_shake_sensitivity">Shake sensitivity</string>
+
+    <string name="pref_title_disable_for_apps">Disable for apps</string>
+
+    <string name="pref_title_open_google_play">Open Google Play</string>
+
+    <string name="pref_title_version">Version</string>
+
+    <string name="pref_title_licenses">Licenses</string>
+
+</resources>
